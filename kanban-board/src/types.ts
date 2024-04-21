@@ -17,6 +17,11 @@ Just like you were doing React without TypeScript, you would use .js and .jsx fo
 (Interfaces have shape of an Dictionary/JS Object, so non primitive types etc…)
 
 - Unlike an interface, the type alias can also be used for other types such as primitives, unions, and tuples.
+
++ What should I use for React Props and State ?
+In general, use what you want ( type alias / interface ) just be consistent, but personally, I recommend to use type aliases:
+- it’s shorter to write type Props = {}
+- your syntax is consistent ( you are not mixin interfaces with type aliases for possible type intersections )
 */ 
 
 export type Id = string | number;
