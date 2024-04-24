@@ -8,14 +8,13 @@ interface Props{
   deleteColumn: (id: Id) => void;
 }
 
-
 function ColumnContainer(props: Props) {
   //Destructuring; extract the column property from the props
   const {column, deleteColumn} = props;
 
   return (
-    <div>
-      
+    <div className="bg-columnBackgroundColor w-[350px] h-[500px] max-h-[500px] rounded-md flex flex-col">
+
     </div>
   )
 }
