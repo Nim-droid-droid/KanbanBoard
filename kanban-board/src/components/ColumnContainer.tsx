@@ -16,10 +16,15 @@ function ColumnContainer(props: Props) {
     <div className="bg-columnBackgroundColor w-[350px] h-[500px] max-h-[500px] rounded-md flex flex-col">
 
       {/* column title */}
+      <div>
+
+      </div>
 
       {/* column task container */}
+      <div>Content</div>
 
       {/* column footer */}
+      <div>Footer</div>
     </div>
   )
 }
