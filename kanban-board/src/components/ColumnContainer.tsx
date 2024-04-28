@@ -19,8 +19,10 @@ function ColumnContainer(props: Props) {
       <div className="bg-mainBackgroundColor text-md h-[60px] cursor-grab rounded-md rounded-b-none p-3 font-bold border-columnBackgroundColor border-4 flex items-center justify-between">
 
         <div className="flex gap-2">
-
+            {column.title}
         </div>
+
+      </div>
 
       {/* column task container */}
       <div>Content</div>
