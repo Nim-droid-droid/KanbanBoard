@@ -22,10 +22,8 @@ function ColumnContainer(props: Props) {
             {column.title}
         </div>
 
-      </div>
-
       {/* column task container */}
-      <div>Content</div>
+      <div className="flex flex-grow">Content</div>
 
       {/* column footer */}
       <div>Footer</div>
