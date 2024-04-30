@@ -22,6 +22,15 @@ function ColumnContainer(props: Props) {
             {column.title}
         </div>
 
+          {/* <button>Delete</button> */}
+        <button 
+          onClick={() => {
+            // Delete column based on ID
+            deleteColumn(column.id);
+          }}
+          className="stroke-gray-500 hover:stroke-white hover:bg-columnBackgroundColor rouned px-1 py-2"><TrashIcon /></button>
+      </div>
+
       {/* column task container */}
       <div className="flex flex-grow">Content</div>
 
