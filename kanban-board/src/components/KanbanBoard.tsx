@@ -6,6 +6,8 @@ import { Column, Id } from "../types";
 import ColumnContainer from "./ColumnContainer";
 
 function KanbanBoard() {
+  const [columns, setColumns] = useState<Column[]>([]);
+
   return (
     <div>
       
@@ -14,3 +16,4 @@ function KanbanBoard() {
 }
 
 export default KanbanBoard
+
